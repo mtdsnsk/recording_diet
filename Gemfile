@@ -1,5 +1,10 @@
 source 'https://rubygems.org'
 
+gem 'devise' # 追記
+gem 'devise-bootstrap-views' # 追記
+gem 'devise-i18n' # 追記
+gem 'devise-i18n-views' # 追記
+gem 'bootstrap-sass', '~> 3.3.6' # 追記
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '5.0.1'
@@ -22,6 +27,9 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
+
+# facebook認証
+gem 'omniauth-facebook'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

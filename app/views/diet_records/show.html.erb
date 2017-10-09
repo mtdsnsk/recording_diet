@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @diet_record.title %>
+</p>
+
+<p>
+  <strong>Author:</strong>
+  <%= @diet_record.author %>
+</p>
+
+<%= link_to 'Edit', edit_diet_record_path(@diet_record) %> |
+<%= link_to 'Back', diet_records_path %>

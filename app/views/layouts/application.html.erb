@@ -1,14 +1,72 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
   <title>Workspace</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+
 </head>
 <body>
 
+<header>
+  <div class="container">
+    <!--<h1>レコーディングダイエット</h1>-->
+  </div>
+</header>
+
+<div id="eyecatch">
+  <div class="container">
+    <h1>レコーディングダイエット</h1>
+  </div>
+</div>
+
+<div class="container" style="pading: 20px 0">
+  <ul class="breadcrumb">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Users</a></li>
+    <li class="active"><a href="#">@taguchi</a></li>
+  </ul>
+</div>
+
+<div class="container" style="pading: 20px 0">
+  <ul class="pagination">
+    <li><a href="#">&laquo;</a></li>
+    <li><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">&raquo;</a></li>
+  </ul>
+</div>
+
+<div class="container">
+  <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+      メニュー
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">CSS</a></li>
+      <li><a href="#">JavaScript</a></li>
+    </ul>
+  </div>
+</div>
+
+<main>
+<div class="container">
 <%= yield %>
+</div>
+</main>
+
+<footer style="background-color:#FF0000;">
+  <div class="container">
+    Copyrights shinsuke matsuda
+  </div>
+</footer>
 
 </body>
 </html>

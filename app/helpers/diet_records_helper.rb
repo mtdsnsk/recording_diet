@@ -1,0 +1,2 @@
+module DietRecordsHelper
+end

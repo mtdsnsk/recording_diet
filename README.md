@@ -13,4 +13,11 @@ Sqlite3
 Bootstrap
 
 ## Other 
+Devise
 Chart.js
+
+## Facebook認証
+facebookログイン
+
+## お問い合わせ
+recording.diet.web@gmail.com
